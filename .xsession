@@ -24,7 +24,7 @@ fi
  
 if [ -x /usr/bin/gnome-power-manager ] ; then
    sleep 3
-   gnome-power-manager
+   gnome-power-manager &
 fi
  
 exec xmonad
